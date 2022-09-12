@@ -1,0 +1,1 @@
+<h2 align='center'>Selamat datang Admin di website Toko Online.</h2>
