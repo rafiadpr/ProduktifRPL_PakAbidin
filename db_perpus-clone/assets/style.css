@@ -1,0 +1,97 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+/* CSS Reset */
+    html {
+      scroll-behavior: smooth;
+    }
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* Navbar */
+
+nav {
+    display: flex;
+    margin-left: 1450px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li  {
+    list-style: none;
+}
+
+nav ul li i {
+    margin: 0 24px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #7FB77E;
+    margin-top: 40px;
+}
+
+nav h2 {
+    position: absolute;
+    width: 233px;
+    height: 48px;
+    left: 38px;
+    top: 48px;
+    color: #366D6A;
+}
+
+nav .search {
+    position: absolute;
+    width: 1063px;
+    height: 45px;
+    left: 356px;
+    top: 47px;
+    
+    background: #7FB77E;
+    border: none;
+    border-radius: 25px;
+}
+
+.namasiswa h5 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-weight: 400;
+    color: #7FB77E;
+}
+
+.namasiswa h4 {
+    font-size: 22px;
+    margin-top: 0px;
+    margin-left: 50px;
+    font-weight: 700;
+    color: #7FB77E;
+}
+
+/* End of Navbar */
+
+
+/* List of Books */
+
+.list {
+    background-color: #7D9D9C;
+}
+
+.card {
+    background-color: #7D9D9C;
+}
+
+.card .img {
+    align-items: center;
+    border-radius: 15px;
+    height: 416px;
+    width: 281px;
+}
+/* End of List */

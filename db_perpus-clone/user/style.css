@@ -1,0 +1,57 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Montserrat:wght@300;400;500;600&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #F9F3EE;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Navbar Section */
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    font-family: "Montserrat";
+}
+
+.navbar-logo h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #403028;
+}
+
+.navbar-search input {
+    width: 600px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    box-sizing: content-box;
+    padding: 0 2rem;
+    font-size: 16px;
+}
+
+.navbar-profile h5 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+}
+/* End of Navbar */
+
+
+/* SubNavbar Section */
+
+/* End of SubNavbar */

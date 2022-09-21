@@ -1,0 +1,89 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* CSS Reset */
+    html {
+      scroll-behavior: smooth;
+    }
+/* CSS Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.pemisah{
+    width: 100%;
+    height: 60px;
+}
+
+/* Navbar */
+nav {
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10000;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    background-color: #F7F6DC;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 0 24px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #576F72;
+}
+
+nav ul li a:hover { 
+    color: #7FB77E;
+    transition: 0s;
+}
+
+/* End of Navbar */
+
+/* Jumbotron */
+.jumbotron {
+    height: 100vh;
+    background-image: url(../db_perpus/assets/wallpaperflare.com_wallpaper\ \(3\)1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .caption {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbotron .caption {
+    position: relative;
+    top: 250px;
+    color: #EEF2E6;
+}
+
+.jumbotron .caption h4 {
+    margin-left: 660px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.jumbotron .caption h2 {
+    margin-left: 470px;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+/* End of Jumbotron */
